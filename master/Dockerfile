@@ -1,7 +1,6 @@
-FROM bde2020/spark-base:2.2.1-hadoop2.7
+FROM ofc587a87/docker-bigdata:base
 
-MAINTAINER Erika Pauwels <erika.pauwels@tenforce.com>
-MAINTAINER Gezim Sejdiu <g.sejdiu@gmail.com>
+MAINTAINER David Luna <ofc587a87@gmail.com>
 
 COPY master.sh /
 
