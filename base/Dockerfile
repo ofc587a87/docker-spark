@@ -31,6 +31,8 @@ RUN apt-get-install -y curl \
 
 RUN apt-get-install -y python3 python3-setuptools python3-pip
 
+RUN apt-get-install -y r-base
+
 # Fix the value of PYTHONHASHSEED
 # Note: this is needed when you use Python 3.3 or greater
 ENV PYTHONHASHSEED 1
