@@ -1,4 +1,4 @@
-FROM ofc587a87/docker-bigdata:worker
+FROM ofc587a87/docker-bigdata:base
 
 MAINTAINER David Luna <ofc587a87@gmail.com>
 
